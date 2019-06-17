@@ -11,8 +11,10 @@ Meteor.startup(() => {
         let jsx = (
             <div>
                 <TitleBar/>
-                <RenderPlayers/>
-                <AddPlayer/>
+                <div className="wrapper">
+                    <RenderPlayers/>
+                    <AddPlayer/>
+                </div>
             </div>
         );
         ReactDOM.render(jsx, document.getElementById('app'));

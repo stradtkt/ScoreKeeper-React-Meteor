@@ -4,8 +4,10 @@ import React, {Component} from 'react';
 class TitleBar extends Component {
     render() {
         return (
-            <div>
-                <h1>Score Keeper</h1>
+            <div className="title-bar">
+                <div className="wrapper">
+                    <h1>Score Keeper</h1>
+                </div>
             </div>
         );
     }
